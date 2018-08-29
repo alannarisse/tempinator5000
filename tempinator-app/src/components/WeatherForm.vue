@@ -3,7 +3,7 @@
     <form v-on:submit="formSubmit">
 				City
 				<select v-model="selectedCity">
-					<option disabled value="">Please select a city</option>
+					<option selected value="Portland, OR">Please select a city</option>
 					<option value="Istanbul, Turkey">Istanbul, Turkey</option>v-container> 
 					</v-container><option value="San Francisco, CA">San Francisco, CA</option>
 					<option value="Amsterdam, Netherlands">Amsterdam, Netherlands</option>
@@ -31,14 +31,14 @@ export default {
   name: 'weatherForm',
   data(){
   	return{
-  		selectedCity:'',
+  		selectedCity:'Portland, OR',
   		chooseFC:'Fahrenheit'
   	}
   },
   methods: {
   	formSubmit(e){
   		// alert(this.selected)
-  		this.$emit('formSubmit', this.selectedCity)
+  		this.$emit('formSubmit', this.selectedCity, this.chooseFC)
   		e.preventDefault()
   	}
   }
