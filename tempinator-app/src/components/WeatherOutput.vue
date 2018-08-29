@@ -1,7 +1,12 @@
 <template>
   <div id="weatherOutput">
-    {{ selectedCity }}
+    
+    <div id="chart">{{ selectedCity }}
+    
+	</div>
+
   </div>
+
 </template>
 
 <script>
@@ -10,3 +15,7 @@ export default {
   props: ['selectedCity']
 }
 </script>
+
+<style>
+
+</style>
