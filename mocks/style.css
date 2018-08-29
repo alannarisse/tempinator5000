@@ -13,8 +13,7 @@ header {
 	padding: 0;
 	height: 160px;
 	width: 100%;
-	background-color: #ccc;
-    background-image: linear-gradient(#fff, #ccc);
+    background-image: linear-gradient(#fff, #63F0FF);
 }
 
 }
@@ -24,6 +23,17 @@ header h1 {
 	position: relative;
 	top: 40px;
 }
+
+nav, footer { 
+	background-color: #666;
+	padding: 10px;
+	font-weight: bold;
+}
+nav a, footer a { 
+	color: #fff;
+	text-decoration: none;
+	 }
+nav a:hover, footer a:hover { color: #63F0FF; }
 
 main {
 	padding: 20px 60px;

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Tempinator5000</title>
+	<title>Tempinator5000 Mock Up</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Nunito" rel="stylesheet">
@@ -10,6 +10,7 @@
 	<header role="banner">
 		<h1><span class="logo"><img src="assets/cloud_icon.svg"></span>Tempinator 5000</h1>
 	</header>
+	<nav><a href="about.html">About</a></nav>
 	<main role="main">
 		<section class="instructions">
 			<p>
@@ -34,14 +35,13 @@
 					<option>Istanbul, Turkey</option>
 				</select>
 				</label>
-				<label for="fc_1">
+				
 					<input type="radio" name="fc" id="fc_1" value="Fahrenheit" checked>
-					Fahrenheit
-				</label>
-				<label for="fc_2">
+					<label for="fc_1">Fahrenheit</label>
+				
 					<input type="radio" name="fc" id="fc_2" value="Celsius">
-					Celsius
-				</label>
+					<label for="fc_2">Celsius</label>
+				
 			</fieldset>
 		</form>
 
@@ -52,22 +52,21 @@
 			
 			<form>
 				<fieldset>
-					<label>
-						<input type="radio" name="duration" value="day">
-						Day
-					</label>
-					<label>
-						<input type="radio" name="duration" value="week">
-						Week
-					</label>
-					<label>
-						<input type="radio" name="duration" value="month">
-						Month
-					</label>
+						<input type="radio" name="duration" id="dur_1" value="day">
+						<label for="dur_1">Day</label>
+
+						<input type="radio" name="duration" id="dur_2" value="week" checked>
+						<label for="dur_2">Week</label>
+
+						<input type="radio" name="duration" id="dur_3" value="month">
+						<label for="dur_3">Month</label>
 				</fieldset>
 			</form>
 		</section>
 	</main>
+	<footer role="footer">
+		<a href="https://github.com/alannarisse/tempinator5000">GitHub</a>
+	</footer>
 </body>
 </html>
 

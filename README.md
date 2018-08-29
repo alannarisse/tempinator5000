@@ -21,11 +21,11 @@ This front-end JS app was created using vue.js and the Apixu weather API. It pul
 
 ## How To Run This Project Locally
 
+clone or download this project to your machine
+> cd terminator-app
+> npm install
+> npm run dev
+
 
 ## How To Run Tests
 
-## My Process
-- Get API key
-- Look for some libraries. think about framworks.
-- Write out the Read me about the app so I can remember the feaures I need to build.
-- Make HTML mockups so I can visual what I'm doing.

@@ -1,0 +1,10 @@
+// turns off eslint
+**/*
+
+/build/
+/config/
+/dist/
+/*.js
+/*.vue
+/test/unit/coverage/
+
