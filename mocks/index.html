@@ -11,10 +11,68 @@
 		<h1><span class="logo"><img src="assets/cloud_icon.svg"></span>Tempinator 5000</h1>
 	</header>
 	<main role="main">
+		<section class="instructions">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ac metus sed mi cursus scelerisque. Integer mollis rutrum feugiat. Duis ornare eu metus ut eleifend. Sed ut risus iaculis, egestas eros vitae, accumsan justo. Donec volutpat elit sed metus mollis, scelerisque placerat nisi pharetra. Nam odio lorem, condimentum vel nulla id, efficitur pellentesque nunc.
+			</p>
+		</section>	
+	
 		<form>
-			
-			
+			<fieldset>
+				<legend>View weather data by cities</legend>
+				<label>
+				City
+				<select name="cities">
+					<option>San Francisco, CA</option>
+					<option>Amsterdam, Netherlands</option>
+					<option>Oakland, CA</option>
+					<option>Rome, Italy</option>
+					<option>Cleveland, OH</option>
+					<option>Tel Aviv, Israel</option>
+					<option>New York City, NY</option>
+					<option>Murmansk, Russia</option>
+					<option>Istanbul, Turkey</option>
+				</select>
+				</label>
+				<label for="fc_1">
+					<input type="radio" name="fc" id="fc_1" value="Fahrenheit" checked>
+					Fahrenheit
+				</label>
+				<label for="fc_2">
+					<input type="radio" name="fc" id="fc_2" value="Celsius">
+					Celsius
+				</label>
+			</fieldset>
 		</form>
+
+		<section class="graph">
+			<p>View the mean temperatures aggregated by day, week, or month for the 7 days prior to the current date.
+			</p>
+			<div class="graph-placeholder"></div>
+			
+			<form>
+				<fieldset>
+					<label>
+						<input type="radio" name="duration" value="day">
+						Day
+					</label>
+					<label>
+						<input type="radio" name="duration" value="week">
+						Week
+					</label>
+					<label>
+						<input type="radio" name="duration" value="month">
+						Month
+					</label>
+				</fieldset>
+			</form>
+		</section>
 	</main>
 </body>
 </html>
+
+
+<!-- 
+	Ut et lobortis velit. Maecenas elementum hendrerit fermentum. Aliquam eget turpis diam. Duis elementum, justo sit amet dapibus porta, tellus augue viverra purus, sed accumsan lectus ligula ac purus. Pellentesque diam purus, suscipit eu cursus non, imperdiet quis lorem. In nec tortor ac orci sagittis iaculis. Quisque a erat augue. Suspendisse congue sit amet quam commodo dictum. Quisque sit amet elementum nisl. Mauris eget mauris et erat lobortis aliquam.
+
+Suspendisse lacinia sollicitudin consectetur. In quis aliquet ex. Nunc sem mauris, varius sit amet ligula sit amet, interdum tristique neque. Cras quam urna, dapibus ac cursus a, facilisis a lorem. Nullam vel tellus porttitor, cursus lorem et, blandit magna. Nullam id arcu massa. Sed elit turpis, rhoncus eu libero facilisis, feugiat dignissim magna. -->
