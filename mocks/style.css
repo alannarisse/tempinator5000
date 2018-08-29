@@ -1,0 +1,24 @@
+* {
+	font-family: 'Nunito', sans-serif;
+	box-sizing: border-box;
+}
+
+body {margin: 0 auto;}
+h1, h2, h3, h4 {
+	font-family: 'Bungee Shade', cursive;
+}
+
+header {
+	margin:0;
+	padding: 0;
+	height: 160px;
+	width: 100%;
+	background-color: #ccc;
+
+}
+header h1 {
+}
+.logo {
+	position: relative;
+	top: 40px;
+}
