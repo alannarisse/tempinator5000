@@ -5,6 +5,7 @@ import VueFrappe from 'vue2-frappe';
 import App from './App'
 import router from './router'
 import vueResource from 'vue-resource'
+import './assets/css/style.css' 
 
 Vue.config.productionTip = false
 Vue.use(vueResource)

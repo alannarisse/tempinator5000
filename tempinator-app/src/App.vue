@@ -81,8 +81,6 @@ export default {
   }
 
   body {margin: 0 auto;}
-  main {
-    padding: 20px 60px;
-  }
+  
 }
 </style>
